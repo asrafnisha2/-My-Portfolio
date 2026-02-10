@@ -10,7 +10,7 @@ header {
     background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: white;
     padding: 30px 15px;
-    text-align: left;
+    text-align: center;
 }
 
 .tagline {
@@ -125,7 +125,8 @@ button {
 footer {
     background: #222;
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 12px;
     font-size: 14px;
+
 }
