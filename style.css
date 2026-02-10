@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6fb;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 30px 15px;
+    text-align: left;
+}
+
+.tagline {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    padding: 40px 20px;
+    text-align:left;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #2575fc;
+}
+
+/* ABOUT */
+#about img {
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.skills span {
+    display: inline-block;
+    background: #2575fc;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* PROJECTS */
+.project-card {
+    background: white;
+    padding: 20px;
+    margin-left: 0;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#contact {
+    background: #f7f8fc;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.contact-note {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-form {
+    max-width: 450px;
+    margin-left: 0;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.checkbox {
+    display: flex;
+    align-items: left;
+    gap: 8px;
+    font-size: 13px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1e3c72;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    font-size: 14px;
+}
